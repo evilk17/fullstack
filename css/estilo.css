@@ -1,0 +1,96 @@
+*{
+  border: 1px solid black;
+
+}
+/* Soy un comentario */
+img{
+  width: 50%;
+  height: 50%;
+  border: 5px dotted peru;
+  padding: 10px 30px 50px 30px;
+  margin: 10px 30px 50px 30px;
+  display:flex;
+  /*float: right;*/
+  position: fixed;
+  top: 0%;
+  left: 40%;
+}
+
+p span{
+background-color: blue;
+color: white;
+
+}
+
+.rosa{
+  background-color:pink;
+  color: white;
+}
+#verde{
+  background-color: green;
+  color: white;
+}
+
+
+p > span {
+  background-color: green;
+  color: white;
+
+}
+
+p > span {
+  background-color: red;
+  color: white;
+}
+
+span + span {
+  font-size: 50px;
+
+}
+
+p[class~="hola2"]{
+  background: yellow;
+}
+
+div {
+  /*width: 500px;
+  height: 200px;
+  overflow: scroll;*/
+  text-align: center;
+
+}
+h3{
+  background-color: aqua;
+  position: relative;
+  top: 5%;
+  display: inline;
+  width: 100px;
+}
+span{
+  background-color: pink;
+  display: block;
+}
+.contenedor{
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.contenedor > div {
+    background-color: gray;
+    color:white;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    line-height: 20px;
+
+
+}
+.item1{
+  height: 150px;
+  
+}
