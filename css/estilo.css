@@ -37,6 +37,10 @@ p > span {
   color: white;
 
 }
+.cssDiv{
+  background-color: red;
+  color:white;
+}
 
 p > span {
   background-color: red;
@@ -92,5 +96,5 @@ span{
 }
 .item1{
   height: 150px;
-  
+
 }
